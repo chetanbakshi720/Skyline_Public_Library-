@@ -1,0 +1,143 @@
+/* Start CSS for header and sidebar*/
+
+.navbar svg{
+    margin-left: 4.5rem;
+}
+
+.user-options{
+    position: relative;
+    margin-right: 3.8rem;
+    display: inline-block;
+    margin-left: -5rem;
+}
+
+.logout{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(10, 122, 6, 0.2);
+    padding: 12px 1px;
+    z-index: 1;
+    margin: 0.1rem 0 0 1rem;
+    text-align: center;
+}
+
+.user-options:hover .logout{
+    display: block;
+    background-color: whitesmoke;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    padding: 90px 0 0 10px;
+    
+    
+}
+
+.left-sidebar{
+    position: sticky;
+    margin-top: 5rem;
+    height: calc(100vh - 70px);
+}
+
+.submenu{
+    display: none;
+    list-style: none;
+}
+
+.welcome_msg{
+    margin-left: 45rem;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-size: large;
+}
+
+.main_content{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    width: 85%;
+}
+
+.dashboard h1{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    /* margin-left: 23rem; */
+}
+
+.main_content .h2{
+    text-align: center;
+}
+
+.user_requestsHeading{
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+.form-outline{
+    margin-left: 12rem;
+}
+.input-group{
+    margin-top: -3rem;
+    margin-left: 66rem;
+}
+
+ .userRequestList{
+    margin-left: 8rem;
+    font-weight: normal;
+    
+}
+.userRequestsing{
+    max-height: 400px;
+}
+
+.userRequests, .addCategory{
+    margin-top: 2rem;
+    margin-left: 9rem;
+    font-weight: normal;
+}
+.searching{
+    width: 8rem;
+}
+
+.user_buttons{
+    margin-top: 4rem;
+    margin-left: 6rem;   
+}
+
+.inner_page_title h1{
+    margin: 10rem 0 4rem 12rem;
+}
+
+/*End CSS for header and sidebar*/
+
+/* Common CSS for all forms */
+
+.card{
+    margin: 10rem 0rem 0rem 25rem;
+    width: 60rem;
+    height: fit-content;
+}
+
+.card-header{
+    font-weight: bold;
+}
+
+
+.side-barstyle{
+    padding-top: 2rem;
+}
+.side-barstyle ul li{
+    padding-left: 1.3rem ;
+
+}
+.table-responsive {
+    max-height:300px;
+    width: 55rem;
+}
+
+.flex-md-nowrap{
+    background-color:white;
+}
